@@ -1,1 +1,116 @@
+{
+  "version": "1.0.0",
 
+  "items": {
+    "mysterious arrow": 25,
+    "lucky arrow": 10,
+    "lucky stone mask": 10,
+    "rokakaka": 25,
+    "pure rokakaka": 10,
+    "gold coin": 45,
+    "diamond": 30,
+    "stone mask": 10,
+    "diary": 10,
+    "steel ball": 10,
+    "rib": 20,
+    "glove": 10,
+    "scroll": 10,
+    "headband": 10,
+    "hat": 10,
+    "clackers": 10
+  },
+
+  "valid_items": [
+    "rokakaka",
+    "arrow",
+    "coin", 
+    "diary",
+    "steel ball",
+    "mask", 
+    "rib", 
+    "glove",
+    "scroll", 
+    "gold", 
+    "lucky", 
+    "headband", 
+    "ancient", 
+    "pure", 
+    "diamond",
+    "hat", 
+    "clackers"
+  ],
+
+  "sell_skip": ["lucky"],
+
+  "blacklist": [
+    "shop", 
+    "npc",
+    "vendor",
+    "merchant",
+    "store", 
+    "dealer",
+    "trader",
+    "buyer", 
+    "seller",
+    "cashier",
+    "clerk", 
+    "dialog",
+    "dialogue",
+    "quest", 
+    "talk", 
+    "ancient_fruits", 
+    "ancient fruits"
+  ],
+
+  "quest": {
+    "target": "William Zeppeli [Lvl. 25+]",
+    "dialogue": "Can I help out again?",
+    "kills_required": 3,
+    "vampire_radius": 150
+  },
+
+  "sell": {
+    "merchant": "ShiftPlox, The Travelling Merchant",
+    "texts": ["I'd like to sell this", "Deal.", "I'll sell ALL of these."],
+    "cooldown": 1.2
+  },
+
+  "combat_rotation": ["R", "T", "Y", "X", "C"],
+
+  "defaults": {
+    "farm_speed": 245,
+    "stop_distance": 3,
+    "cframe_speed": 400,
+    "sell_threshold": 0
+  },
+
+  "locations": {
+    "Merchant's Keep": [-623.013, -25.75, -335.989],
+    "Prison Bridge":   [573.31, -0.04, -100.01],
+    "Arcade":          [317.527, -0.39, -260.315],
+    "Via dell'Oceano": [2.01, -26.00, 555.44],
+    "Train Station":   [-430.75, -0.04, -12.06],
+    "Parking Lot":     [-61.07, -0.04, -662.35],
+    "Via Toledo":      [-98.82, -0.04, -143.14]
+  },
+
+  "idle_points": [
+    [-29.39, -26.00, 557.07], 
+    [334.56, -0.04, 118.87],  
+    [568.09, -0.04, -435.57],
+    [83.97, -0.04, -437.74],  
+    [-64.39, -0.04, -646.24], 
+    [-607.86, -24.41, -647.42],
+    [-426.70, -0.04, -295.63],
+    [564.13, -0.04, 69.08],   
+    [906.89, 34.04, -70.62],
+    [-431.07, -0.04, -3.55],  
+    [-674.79, -25.79, -245.95],
+    [-739.20, -26.00, -447.67],
+    [-265.92, -5.36, 14.35],  
+    [76.94, -0.04, -150.95],  
+    [119.29, -24.82, 342.77],
+    [446.98, 30.77, -282.92], 
+    [203.60, 0.26, -292.02]
+  ]
+}
