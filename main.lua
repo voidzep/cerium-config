@@ -1,4 +1,4 @@
-local BASE_URL = "https://raw.githubusercontent.com/voidzep/cerium-config/refs/heads/main/config.json"
+local BASE_URL = "https://raw.githubusercontent.com/voidzep/cerium-config/main/"
 
 local http_service = game:GetService("HttpService")
 
