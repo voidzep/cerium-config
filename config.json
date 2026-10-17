@@ -17,7 +17,11 @@
     "scroll": 10,
     "headband": 10,
     "hat": 10,
-    "clackers": 10
+    "clackers": 10,
+    "green candy": 45,
+    "red candy": 45,
+    "blue candy": 45,
+    "yellow candy": 45
   },
 
   "valid_items": [
@@ -37,10 +41,17 @@
     "pure", 
     "diamond",
     "hat", 
-    "clackers"
+    "clackers",
+    "candy"
   ],
 
-  "sell_skip": ["lucky"],
+  "sell_skip": [
+    "lucky",
+    "green candy",
+    "red candy",
+    "blue candy",
+    "yellow candy"
+  ],
 
   "blacklist": [
     "shop", 
